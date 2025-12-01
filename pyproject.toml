@@ -1,0 +1,22 @@
+[project]
+name = "aoc2025"
+version = "1.0.0"
+description = "Advent Of Code 2025"
+requires-python = "==3.13.7"
+dependencies = [
+    "advent-of-code-data>=2.1.0",
+    "browser-cookie3>=0.20.1",
+    "debugpy>=1.8.17",
+    "graphviz>=0.21",
+    "networkx>=3.5",
+    "numpy>=2.3.0",
+    "pandas>=2.3.3",
+    "pygraphviz>=1.14",
+    "pyopenssl>=25.3.0",
+    "z3-solver>=4.15.4.0",
+]
+
+[tool.ruff]
+line-length = 88
+extend-select = ["I"]
+
