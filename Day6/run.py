@@ -73,8 +73,7 @@ def parse2(filename: str):
                     curr = ""
                     continue
                 curr += c
-            else:
-                l.append(curr)
+            l.append(curr)
             out.append(l[:])
 
     return out, ops
